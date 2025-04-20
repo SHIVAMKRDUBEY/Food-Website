@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import AuthForm from "./AuthForm";
+import AuthForm from "./AuthForm.jsx";
 
 const Meal = () => {
   const [mealData, setMealData] = useState([]);
