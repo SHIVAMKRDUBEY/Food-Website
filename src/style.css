@@ -10,29 +10,19 @@
   justify-content: center;
   align-items: center;
   vertical-align: top;
-  margin-left: 0.5%;
+  /* margin-left: 0.5%; */
+  margin-bottom: 2px;
   position: fixed;
   bottom: 0;
   left: 0;
   height: 40px;
-  width: 99%;
-  background: lightyellow;
+  width: 100%;
+  background: #000;
   padding: 20px;
   text-align: center;
   /* shape-outside: 10px; */
   outline: 2px solid rgb(36, 236, 36);
   opacity: 0.8;
-}
-
-.div-about a {
-  margin: 20px;
-}
-
-.div-about a i {
-  /* height: 50px;
-  width: 50px;*/
-  size: 30px;
-
 }
 
 .mt-2 {
@@ -42,14 +32,15 @@
 
 .mb-1 {
   margin-top: -12px;
+  margin-bottom: 8px;
 }
 
 .bottom-div p,
 p b,
 p a {
-  background-color: lightyellow;
-  text-shadow: 1px 1px 2px rgb(193, 27, 27);
-  color: rgb(4, 97, 4);
+  background-color: #000;
+  text-shadow: 1px 1px 2px rgb(193, 27, 104);
+  color: #fff;
   font-weight: bolder;
 }
 
@@ -59,18 +50,35 @@ p a {
 
 
 .icon {
-  background-color: #000;
-  color: red;
-  font-size: x-large;
+  background-color: none;
+  border: none;
+  outline: none;
+  color: violet;
+  background-color: #fff;
+  font-size: xx-large;
   transition: transform 0.6s ease;
   transform: translateZ(0);
 }
 
 .icon:hover {
-  transform: scale(1.5) translateZ(50px);
+  transform: scale(1.9) translateZ(70px);
 }
 
 .text-whit {
   background-color: lightpink;
   color: #000;
+}
+
+.last-div {
+  height: 100px;
+  margin-bottom: 25px;
+  width: 100%;
+  background-color: "#000";
+  height: "100px";
+  border: "3px solid aqua";
+  gap: "50px";
+}
+
+.end-icon {
+  color: blue;
 }

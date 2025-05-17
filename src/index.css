@@ -1,8 +1,8 @@
 * {
   /* margin: 3px; */
   padding: 0;
-  background-color: #000;
-  color: #fff;
+  background-color: green;
+  color: #000;
   outline: none;
 }
 
@@ -138,6 +138,7 @@ form input {
 .search-bar {
   box-shadow: 3px 5px 5px rgba(40, 178, 237, 0.779);
   margin-right: 5px;
+  background-color: #000;
 }
 
 .refresh {
@@ -146,39 +147,3 @@ form input {
   align-items: 'center';
   height: '100px';
 }
-
-/* .about {
-  height: 100px;
-  width: 100%;
-  position: fixed;
-  padding: 20px;
-  background-color: #3d3d4d;
-  display: 'flex';
-  text-align: center;
-  justify-content: 'center';
-  align-items: 'center';
-}
-
-.bottom-div {
-  margin-top: 5rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  border-start-end-radius: 20px;
-  border-start-start-radius: 20px;
-  height: 50px;
-  width: 100%;
-  background: lightyellow;
-  padding: 20px;
-  text-align: center;
-  shape-outside: 5px;
-  outline: 1px solid rgb(36, 236, 36);
-  opacity: 0.8;
-}
-
-.bottom-div p, p b{
-  background-color: lightyellow;
-  text-shadow: 1px 1px 2px rgb(193, 27, 27);
-  color: rgb(4, 97, 4);
-  font-weight: bolder;
-} */
